@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageNom</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="google">Google</string>
+    <string name="flickr">Flickr</string>
+    <string name="imgur">Imgur</string>
+    <string name="enter_search_terms">enter search term</string>
+    <string name="error_encoding_search">error encoding search - please enter your search and try again</string>
+    <string name="about">ImageNom is &#169; Pat Dalberg 2014 \n
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at\n
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+\nUnless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.\n
+
+Source code available at\n
+
+		https://github.com/pat-dalberg/ImageNom</string>
+    <string name="searching">searching...</string>
+    <string name="menu_about">about</string>
+    <string name="share">share</string>
+
+</resources>

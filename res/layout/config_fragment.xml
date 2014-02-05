@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/config_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<!--  
+    <fragment
+        android:id="@+id/config_fragment"
+        android:name="com.dalberg.android.imagenom.ConfigFragment"
+        android:layout_width="@dimen/config_fragment_width"
+        android:layout_height="match_parent" >
+-->
+        <LinearLayout
+            android:id="@+id/llConfigContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/eight_dp" >
+
+            <CheckBox
+                android:id="@+id/cbGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/google" />
+
+            <CheckBox
+                android:id="@+id/cbFlickr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flickr" />
+
+            <CheckBox
+                android:id="@+id/cbImgur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/imgur" />
+        </LinearLayout>
+<!--          
+    </fragment>
+-->
+</RelativeLayout>
